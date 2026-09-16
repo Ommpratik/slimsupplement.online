@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SlimSana | Daily Weight-Management Support</title>
+<meta name="description" content="Explore SlimSana's 11-ingredient daily formula, product information and weight-management guide.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{--g:#123d34;--g2:#2c6c59;--gold:#d6a947;--cream:#f7f2e7;--ink:#18312b;--muted:#66746e;--line:#e6e1d7;--shadow:0 22px 60px #123d3420}
+*{box-sizing:border-box}body{margin:0;color:var(--ink);font-family:"DM Sans",sans-serif;line-height:1.6}a{text-decoration:none;color:inherit}.wrap{width:min(1140px,92%);margin:auto}
+.top{background:var(--g);color:white;text-align:center;font-size:12px;padding:9px}.top b{color:#ffe09a}
+nav{position:sticky;top:0;z-index:9;background:#fffE;border-bottom:1px solid var(--line);backdrop-filter:blur(15px)}.nav{height:70px;display:flex;align-items:center;justify-content:space-between}.logo{font-size:22px;font-weight:800}.logo i{font-style:normal;color:var(--gold)}.navlinks{display:flex;gap:23px;font-size:13px;color:#53615c}.cta,.ghost{display:inline-flex;padding:12px 20px;border-radius:999px;font-weight:800;align-items:center;justify-content:center}.cta{background:var(--g);color:#fff}.ghost{border:1px solid #dce4df;background:#fff;color:var(--g)}
+.hero{background:linear-gradient(135deg,#faf6ed,#edf6f0);padding:72px 0}.heroGrid{display:grid;grid-template-columns:1.05fr .95fr;gap:55px;align-items:center}.eyebrow{text-transform:uppercase;letter-spacing:1.7px;color:var(--g2);font-weight:800;font-size:12px}.hero h1{font:700 clamp(44px,6vw,72px)/1.02 "Playfair Display";letter-spacing:-2px;margin:10px 0 22px}.hero p{font-size:18px;color:var(--muted)}.buttons{display:flex;gap:12px;flex-wrap:wrap;margin:25px 0}.heroVisual{position:relative}.heroVisual img{max-width:100%}
+.heroPhotoGrid{display:grid;grid-template-columns:1.35fr .75fr;grid-template-rows:215px 215px;gap:13px;position:relative}
+.heroPhotoGrid>img{width:100%;height:100%;object-fit:cover;border-radius:24px;box-shadow:0 18px 45px rgba(18,61,52,.13)}
+.heroPhotoGrid .mainDiet{grid-row:1/3;height:443px}
+.heroPhotoGrid .productMini{position:absolute;right:15px;bottom:18px;width:145px;height:145px;background:#fff;border-radius:22px;padding:10px;box-shadow:0 16px 38px rgba(0,0,0,.18);z-index:2}
+.heroPhotoGrid .productMini img{width:100%;height:100%;object-fit:contain;border-radius:14px}
+.heroPhotoGrid .float{left:22px;bottom:-22px;z-index:3}
+.float{position:absolute;bottom:24px;left:-22px;background:white;padding:15px 18px;border-radius:17px;box-shadow:0 14px 40px #0002;font-size:12px}.float strong{display:block;font-size:15px}
+section{padding:82px 0}.head{text-align:center;max-width:800px;margin:0 auto 42px}.head h2{font:700 43px/1.08 "Playfair Display";margin:8px 0 13px}.head p{color:var(--muted)}
+.product{display:grid;grid-template-columns:.85fr 1.15fr;gap:45px;align-items:center}.bottle{background:var(--cream);border-radius:30px;padding:25px;display:grid;place-items:center}.bottle img{width:100%;height:490px;object-fit:contain}.product h2{font:700 46px/1.08 "Playfair Display";margin:9px 0 15px}.product p{color:var(--muted)}.chips{display:flex;flex-wrap:wrap;gap:9px;margin:20px 0}.chip{padding:8px 12px;border-radius:999px;background:#eef5f0;color:var(--g2);font-weight:700;font-size:12px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{border:1px solid var(--line);border-radius:23px;padding:24px;background:#fff}.icon{font-size:25px}.card h3{margin:8px 0 5px}.card p{margin:0;color:var(--muted);font-size:13px}
+.formula{background:var(--cream)}.ingredients{display:grid;grid-template-columns:repeat(2,1fr);gap:13px}.ingredient{background:white;border:1px solid var(--line);border-radius:18px;padding:17px}.ingredient b{display:block}.ingredient span{font-size:12px;color:var(--muted)}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center}.split img{width:100%;height:470px;object-fit:cover;border-radius:28px}.split h2{font:700 43px/1.08 "Playfair Display"}.split p,.split li{color:var(--muted)}
+.offer{background:#fbfaf7}.offers{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.offerCard{background:#fff;border:1px solid var(--line);border-radius:25px;padding:25px}.offerCard.featured{border:2px solid var(--g)}.offerCard h3{margin:0}.price{font-size:34px;font-weight:800}.offerCard li{font-size:13px;color:var(--muted);margin:7px 0}
+.quote{background:var(--g);color:white;border-radius:30px;padding:45px;text-align:center}.quote p{font:600 29px/1.35 "Playfair Display";max-width:820px;margin:auto}
+.faq{max-width:850px;margin:auto}.faq details{border-bottom:1px solid var(--line);padding:18px 0}.faq summary{font-weight:800;cursor:pointer}.faq p{color:var(--muted);font-size:14px}
+.disclaimer{background:#f5f7f5;border-top:1px solid var(--line);padding:27px 0;font-size:12px;color:#66746e}footer{background:#102e27;color:#dce5e1;padding:35px 0;font-size:12px}.foot{display:flex;justify-content:space-between;gap:25px}
+.mobile{display:none}
+@media(max-width:850px){.heroPhotoGrid{grid-template-columns:1fr 1fr;grid-template-rows:180px 180px}.heroPhotoGrid .mainDiet{grid-row:1/3;height:373px}.heroPhotoGrid .productMini{width:105px;height:105px}.heroPhotoGrid .float{left:8px;bottom:-18px}.navlinks{display:none}.heroGrid,.product,.split{grid-template-columns:1fr}.heroVisual img{height:420px}.float{left:12px}.cards,.offers{grid-template-columns:1fr}.ingredients{grid-template-columns:1fr}.head h2,.product h2,.split h2{font-size:35px}.mobile{display:block;position:fixed;bottom:12px;left:4%;right:4%;z-index:10;text-align:center;padding:14px;background:var(--g);color:white;border-radius:999px;font-weight:800;box-shadow:0 10px 30px #0003}body{padding-bottom:65px}.foot{flex-direction:column}}
+</style>
+</head>
+<body>
+<div class="top">Independent affiliate site • <b>Review the current label and manufacturer information before buying</b></div>
+<nav><div class="wrap nav"><div class="logo">Slim<i>Sana</i></div><div class="navlinks"><a href="#product">Product</a><a href="#benefits">Benefits</a><a href="#formula">Formula</a><a href="#guide">Guide</a><a href="#faq">FAQ</a></div><a class="cta" href="#product">Explore SlimSana</a></div></nav>
+
+<header class="hero">
+<div class="wrap">
+  <div class="heroGrid">
+    <div>
+      <div class="eyebrow">11-ingredient daily formula</div>
+      <h1>A fresher, smarter approach to your weight-management journey.</h1>
+      <p>SlimSana is presented by its manufacturer as a daily capsule formulated around appetite, metabolism and energy support. Discover the ingredients, product information and practical lifestyle habits before deciding.</p>
+      <div class="buttons"><a class="cta" href="https://myslimsana.com/slimsana-pdp-fe#aff=ommpratik" target="_blank" rel="sponsored nofollow noopener">Explore SlimSana →</a><a class="ghost" href="#formula">Discover the formula</a></div>
+      <small style="color:#77837d">Individual results vary. This page does not guarantee weight loss or treat obesity.</small>
+    </div>
+    <div class="heroVisual">
+      <div class="heroPhotoGrid">
+        <img class="mainDiet" src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=1000&q=90" alt="Colorful healthy balanced meal">
+        <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=90" alt="Fresh salad and healthy vegetables">
+        <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=90" alt="Person exercising as part of an active lifestyle">
+        <div class="productMini"><img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https%3A//assets.cdn.filesafe.space/L4LdQDk3vJiv9duiMlUd/media/67d8a1d2628c2fe822a13bf7.png" alt="SlimSana bottle"></div>
+        <div class="float"><strong>Nutrition • movement • daily routine</strong>Explore the SlimSana formula below.</div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+<section id="product"><div class="wrap product"><div class="bottle"><img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https%3A//assets.cdn.filesafe.space/L4LdQDk3vJiv9duiMlUd/media/67d8a1d2628c2fe822a13bf7.png" alt="SlimSana bottle"></div><div>
+<div class="eyebrow">Featured product</div><h2>Meet SlimSana</h2>
+<p>The manufacturer's page describes SlimSana as a natural daily supplement focused on healthy weight balance, appetite control, cravings, metabolism and energy. The product page also presents a four-phase formula built around 11 ingredients.</p>
+<div class="chips"><span class="chip">One-capsule routine</span><span class="chip">11 ingredients</span><span class="chip">Botanical blend</span><span class="chip">Weight-management support</span></div>
+<a class="cta" href="https://myslimsana.com/slimsana-pdp-fe#aff=ommpratik" target="_blank" rel="sponsored nofollow noopener">Check today's product page →</a>
+<p style="font-size:12px">Affiliate disclosure: this link may earn a commission for the site owner at no extra cost to the purchaser.</p>
+</div></div></section>
+
+<section id="benefits"><div class="wrap"><div class="head"><div class="eyebrow">What the seller highlights</div><h2>Why people may be interested in the formula</h2><p>These are product-page descriptions, not independent guarantees of results.</p></div>
+<div class="cards">
+<div class="card"><div class="icon">🎯</div><h3>Appetite support</h3><p>The manufacturer markets the formula around appetite control and feeling satisfied, making it relevant to people trying to manage portions.</p></div>
+<div class="card"><div class="icon">🍬</div><h3>Craving support</h3><p>The seller highlights support for food and sugar cravings as part of its weight-management positioning.</p></div>
+<div class="card"><div class="icon">🔥</div><h3>Metabolism support</h3><p>Green tea and other ingredients are positioned by the seller as supporting normal metabolic activity and energy use.</p></div>
+<div class="card"><div class="icon">⚡</div><h3>Daily energy</h3><p>The manufacturer describes SlimSana as supporting steady everyday energy and an active routine.</p></div>
+<div class="card"><div class="icon">🌿</div><h3>Botanical ingredients</h3><p>The listed formula includes green tea, ginger, cinnamon, cayenne, bitter orange, banaba and Korean ginseng.</p></div>
+<div class="card"><div class="icon">💊</div><h3>Simple routine</h3><p>The product page presents SlimSana as a convenient daily capsule rather than a meal replacement.</p></div>
+</div></div></section>
+
+<section class="formula" id="formula"><div class="wrap"><div class="head"><div class="eyebrow">Formula facts</div><h2>What is inside SlimSana?</h2><p>The manufacturer's page lists 11 ingredients. Amounts below reflect the product information previously reviewed; verify the current package label before use.</p></div>
+<div class="ingredients">
+<div class="ingredient"><b>Green tea extract — 154 mg</b><span>Featured in the seller's thermogenesis/metabolism positioning.</span></div>
+<div class="ingredient"><b>Apple cider vinegar — 150 mg</b><span>Marketed around appetite and satiety support.</span></div>
+<div class="ingredient"><b>Berberine HCl — 85 mg</b><span>Included in the seller's metabolism-focused phase.</span></div>
+<div class="ingredient"><b>Chromium picolinate — 100 µg</b><span>Chromium contributes to normal macronutrient metabolism.</span></div>
+<div class="ingredient"><b>Cayenne extract — 20 mg</b><span>Botanical component of the blend.</span></div>
+<div class="ingredient"><b>Ginger root — 50 mg</b><span>Botanical component of the blend.</span></div>
+<div class="ingredient"><b>Cinnamon extract — 20 mg</b><span>Botanical component of the blend.</span></div>
+<div class="ingredient"><b>Bitter orange — 20 mg</b><span>Botanical component of the blend.</span></div>
+<div class="ingredient"><b>Banaba leaf — 5 mg</b><span>Listed botanical ingredient.</span></div>
+<div class="ingredient"><b>Resveratrol — 1 mg</b><span>Listed component of the blend.</span></div>
+<div class="ingredient"><b>Korean ginseng — 5 mg</b><span>Listed botanical ingredient.</span></div>
+</div></div></section>
+
+<section id="guide"><div class="wrap split"><img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=1000&q=85" alt="Balanced meal"><div><div class="eyebrow">The smart way to use information</div><h2>Supplement + sustainable habits</h2><p>Weight management is usually a long-term process. Build meals around vegetables, protein-rich foods and fibre, stay active, sleep consistently and choose goals you can maintain.</p><p>If you are considering SlimSana, read the current label and directions. A supplement should not replace nutritious food, physical activity or medical care. If you take medicines, have a medical condition, or are pregnant or breastfeeding, speak with a healthcare professional before using a multi-ingredient supplement.</p><ul><li>Prioritise sustainable nutrition.</li><li>Build regular movement into your week.</li><li>Track habits as well as scale weight.</li><li>Check ingredients, warnings and serving instructions.</li></ul></div></div></section>
+
+<section class="offer"><div class="wrap"><div class="head"><div class="eyebrow">Ordering</div><h2>See the live offer before you buy</h2><p>Prices and promotions can change. The button takes you to the manufacturer's product page with your affiliate tracking parameter.</p></div><div class="offers">
+<div class="offerCard"><h3>1 Bottle</h3><div class="price">€69</div><p>30-day supply shown on the product page</p><a class="cta" href="https://myslimsana.com/slimsana-pdp-fe#aff=ommpratik" target="_blank" rel="sponsored nofollow noopener">Check offer</a></div>
+<div class="offerCard featured"><h3>3 Bottles</h3><div class="price">€177</div><p>90-day supply • price shown on the product page at review time</p><a class="cta" href="https://myslimsana.com/slimsana-pdp-fe#aff=ommpratik" target="_blank" rel="sponsored nofollow noopener">Check offer</a></div>
+<div class="offerCard"><h3>6 Bottles</h3><div class="price">€294</div><p>180-day supply • price shown on the product page at review time</p><a class="cta" href="https://myslimsana.com/slimsana-pdp-fe#aff=ommpratik" target="_blank" rel="sponsored nofollow noopener">Check offer</a></div>
+</div></div></section>
+
+<section><div class="wrap"><div class="quote"><p>“Know what you're buying, know what you're taking, and choose a routine you can actually maintain.”</p></div></div></section>
+
+<section id="faq"><div class="wrap"><div class="head"><div class="eyebrow">FAQ</div><h2>Before you order</h2></div><div class="faq">
+<details><summary>Does SlimSana guarantee weight loss?</summary><p>No. The manufacturer makes outcome claims on its sales page, but this site does not guarantee a specific amount or timeframe of weight loss.</p></details>
+<details><summary>What are the main ingredients?</summary><p>The listed formula includes green tea extract, apple cider vinegar, berberine HCl, chromium picolinate, cayenne, ginger, cinnamon, bitter orange, banaba leaf, resveratrol and Korean ginseng.</p></details>
+<details><summary>Can I take it with medication?</summary><p>Ask a healthcare professional before using it if you take medication, have a medical condition, or are pregnant/breastfeeding.</p></details>
+<details><summary>Where can I verify the current product information?</summary><p>Use the manufacturer's product page linked by the buttons on this website. Product formulation, price, shipping and promotions can change.</p></details>
+</div></div></section>
+
+<div class="disclaimer"><div class="wrap"><b>Important:</b> This is an independent affiliate website. Product benefits above are presented as manufacturer descriptions where indicated, not as independently verified medical claims. This site does not diagnose, treat, cure or prevent obesity or disease. Always check the current package label and seek professional advice when appropriate.</div></div>
+<footer><div class="wrap foot"><div><b>SlimSana Guide</b><br>Independent informational/affiliate website.</div><div>Affiliate disclosure: qualifying purchases through our links may generate a commission.</div></div></footer>
+<a class="mobile" href="https://myslimsana.com/slimsana-pdp-fe#aff=ommpratik" target="_blank" rel="sponsored nofollow noopener">VIEW SLIMSANA OFFER →</a>
+</body></html>
